@@ -4,7 +4,7 @@ title: "Informers"
 author: "Cyan"
 categories: ML
 tags: [ML][NN]
-image: informer.png
+image: /assets/img/informer.png
 ---
 
 about informer
