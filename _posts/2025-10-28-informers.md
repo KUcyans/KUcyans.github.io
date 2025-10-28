@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Informers"
+title: "Informer"
 author: "Cyan"
-categories: ML
-tags: [ML][NN]
-image: /assets/img/informer.png
+categories: [ML, NN]
+tags: [ML, NN]
+image: "/assets/img/informer.png"
 ---
-
-about informer
