@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "$\chi^2$"
+title: "Chi Square Fitting"
 author: "Cyan"
 categories: statistics
 tags: [statistics]
