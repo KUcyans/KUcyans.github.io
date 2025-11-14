@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chi Square Fitting"
+title: "$\chi^2$ Square Fitting"
 author: "Cyan"
 categories: statistics
 tags: [statistics]
@@ -13,7 +13,7 @@ Say we have a data scattered in $xy$ plane, where each point has some measuremen
 This is where modelling comes in: we introduce a hypothesis for the relationship between $x$ and $y$. Only once we have a model does it make sense to quantify how well it fits the data.
 
 # Chi-square fitting
-We have a nice and straightforward method of modelling: $\chi^2$ (chi-square) fitting. It's arguably the most intuitive method to fit a model to data. Eventually you will have a model, with some parameters, and perhaps how nicely does your model fit the data. But you need to have a your opinion: a hypothesis. You should have an idea of what kind of distribution your data should follow. Is it linear, quadratic, exponential, Gaussian, sinusoidal or something else?
+We have a nice and straightforward method of modelling: $\chi^2$-square fitting. It's arguably the most intuitive method to fit a model to data. Eventually you will have a model, with some parameters, and perhaps how nicely does your model fit the data. But you need to have a your opinion: a hypothesis. You should have an idea of what kind of distribution your data should follow. Is it linear, quadratic, exponential, Gaussian, sinusoidal or something else?
 
 Say I chose a linear model to fit my data. Then the relation between $x$ and $y$ is something like this:
 
