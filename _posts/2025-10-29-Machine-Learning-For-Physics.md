@@ -2,12 +2,12 @@
 layout: post
 title: "Machine Learning for Physics"
 author: "Cyan"
-categories: ML
-tags: [ML][NN][Physics]
+categories: blog
+tags: [ML, NN, Physics]
 image: FFNN.png
 ---
 
-## Why Do We Need ML in Science?
+# Why Do We Need ML in Science?
 - Start by showing data: linear
 - Try to fit it: how would you do? draw a line/curve? 
 - Chi square fit: minimisation of chi square sum: trivial, evident logic

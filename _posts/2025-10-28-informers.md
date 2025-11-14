@@ -2,8 +2,8 @@
 layout: post
 title: "Informers"
 author: "Cyan"
-categories: ML
-tags: [ML][NN]
+categories: blog
+tags: [ML, NN]
 image: informer.png
 ---
 

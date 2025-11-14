@@ -2,8 +2,8 @@
 layout: post
 title: "$\chi^2$ Square Fitting"
 author: "Cyan"
-categories: statistics
-tags: [statistics]
+categories: blog
+tags: [Statistics]
 image: chi_square.png
 ---
 
