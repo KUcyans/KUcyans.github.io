@@ -16,7 +16,7 @@ This is where modelling comes in: we introduce a hypothesis for the relationship
 We have a nice and straightforward method of modelling: $\chi^2$-square fitting. It's arguably the most intuitive method to fit a model to data. Eventually you will have a model, with some parameters, and perhaps how nicely does your model fit the data. But you need to have a your opinion: a hypothesis. You should have an idea of what kind of distribution your data should follow. Is it linear, quadratic, exponential, Gaussian, sinusoidal or something else?
 
 Say I chose a linear model to fit my data. Then the relation between $x$ and $y$ is something like this:
-
+![Linear Data](assets/img/chi_square_data1.png)
 $$ y = ax + b $$
 
 where $a$ and $b$ are the parameters to be determined. Once you have your model, you can calculate the expected value of $y$ for each $x$ (thus $ax+b$). Then you can compare the expected value with the observed value. The difference between the two is called the residual. The $\chi^2$ sum is calculated as follows:
@@ -35,6 +35,7 @@ $$
 y_i = \hat{y}_i(x_i; a, b) + \epsilon_i\\
 \epsilon_i \sim N(0, \sigma_i^2)
 $$
+
 
 
 # Goodness of fit
