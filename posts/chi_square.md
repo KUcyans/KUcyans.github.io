@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Chi-square method
-date: 2025-01-01
+date: 2025-10-31
 permalink: /posts/chi_square/
 cover: /assets/img/chi_square.png
 ---
