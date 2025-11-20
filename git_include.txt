@@ -1,0 +1,7 @@
+index.html
+LICENSE
+_config.yml
+git_include.txt
+posts/*
+assets/css/*
+assets/img/*

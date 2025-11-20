@@ -1,0 +1,7 @@
+title: Cyan's Page
+description: Personal page of Cyan
+theme: null
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins: []
