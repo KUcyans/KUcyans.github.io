@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Chi Square Fitting"
-author: "Cyan"
-categories: inspirations
-tags: [Statistics]
-image: chi_square.png
+title: Chi-square method
+date: 2025-01-01
+permalink: /posts/chi_square/
+cover: /assets/img/chi_square.png
 ---
+
 
 # Modelling
 Say we have a data scattered in $xy$ plane, where each point has some measurement uncertainty, and the errors in $y$ are assumed to be Gaussian. How will you describe the distribution of this data? Finding statistical values – such as median, mean or standard deviation – must be the first step to take. Additional quantiles such as quartiles, deciles or percentiles may also help to understand the distribution better. Ok but what if the distribution of the data doesn't resemble any known nicely peaked distributions? Or if I want to illustrate the data more formally?

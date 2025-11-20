@@ -74,3 +74,49 @@ nav a:hover {
   border-top: 1px solid #ddd;
   color: #666;
 }
+/* Post list with cover images */
+.post-card {
+  display: flex;
+  gap: 1rem;
+  border-left: 4px solid var(--theme);
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  background: #f9f9f9;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.post-card:hover {
+  background: #f0faff;
+}
+
+.post-cover img {
+  width: 160px;
+  height: 100px;
+  object-fit: cover;   /* crop nicely */
+  border-radius: 5px;
+  border: 2px solid #eee;
+}
+
+.post-card-text {
+  flex: 1;
+}
+
+.post-card-text h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.post-card-text h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.post-card-text h2 a:hover {
+  color: var(--theme);
+}
+
+.date {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}

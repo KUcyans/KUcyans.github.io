@@ -5,3 +5,4 @@ git_include.txt
 posts/*
 assets/css/*
 assets/img/*
+_layouts/post.html
