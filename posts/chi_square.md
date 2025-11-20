@@ -16,7 +16,7 @@ This is where modelling comes in: we introduce a hypothesis for the relationship
 We have a nice and straightforward method of modelling: $\chi^2$-square fitting. It's arguably the most intuitive method to fit a model to data. Eventually you will have a model, with some parameters, and perhaps how nicely does your model fit the data. But you need to have a your opinion: a hypothesis. You should have an idea of what kind of distribution your data should follow. Is it linear, quadratic, exponential, Gaussian, sinusoidal or something else?
 
 Say I chose a linear model to fit my data. Then the relation between $x$ and $y$ is something like this:
-![Linear Data](/posts/assets/img/chi_square_data1.png)**Figure 1**: Example of linear data with error bars
+![Linear Data](/assets/img/chi_square_data1.png)**Figure 1**: Example of linear data with error bars
 
 $$ y = ax + b $$
 
@@ -27,7 +27,7 @@ $$ \chi^2 = \sum_{i=1}^{n} \frac{(y_i - \hat{y}_i)^2}{\sigma_i^2} $$
 where $n$ is the number of data points, $y_i$ is the observed value, $\hat{y}_i$ is the expected value, and $\sigma_i$ is the standard deviation (error) of the observed value. The $\chi^2$ sum is a square sum of the residuals. The smaller the $\chi^2$ sum, the better the fit. So you can try different $a$s and $b$s to find the minimum $\chi^2$ sum. The values of $a$ and $b$ that give the minimum $\chi^2$ sum are the best-fit parameters.
 Simple theory isn't it?
 
-![Linear Data](/posts/assets/img/chi_square_data2.png)**Figure 2**: Example of chi-square fitting of linear data with Gaussian noise
+![Chi square fit](/assets/img/chi_square_data2.png)**Figure 2**: Example of chi-square fitting of linear data with Gaussian noise
 
 ---
 
@@ -47,12 +47,12 @@ If we normalise the $\chi^2$ sum by the degrees of freedom, we get the reduced c
 
 $$\chi^2_{red} = \frac{\chi^2}{dof}$$
 
-The reduced chi-square should be approximately 1 if the model is a good fit to the data. If $\chi^2_{red} \gg 1$, it indicates that the model does not fit the data well, or that the uncertainties are underestimated. Conversely, if $\chi^2_{red} \ll 1$, it suggests that the model may be overfitting the data, or that the uncertainties are overestimated. 
+The reduced chi-square should be approximately 1 if the model is a good fit to the data. If $\chi^2_{red} \\gg 1$, it indicates that the model does not fit the data well, or that the uncertainties are underestimated. Conversely, if $\chi^2_{red} \\ll 1$, it suggests that the model may be overfitting the data, or that the uncertainties are overestimated. 
 
 If your model is correct and the errors are Gaussian, then the (properly normalised) residuals follow a standard normal distribution. The sum of their squares therefore follows a distribution known as $\chi^2$ distribution. Each integer value of the degrees of freedom corresponds to a different $\chi^2$ distribution. 
 
 # p-value
-![Linear Data](/posts/assets/img/chi_square_data3.png)**Figure 3**: chi-square distribution for different degrees of freedom
+![Linear Data](/assets/img/chi_square_data3.png)**Figure 3**: chi-square distribution for different degrees of freedom
 
 The calculated residual $\chi^2_{red}$ sum can be compared to the $\chi^2$ distribution with the corresponding degrees of freedom. From this comparison, we can calculate the p-value. This p-value represents the probability of obtaining a $\chi^2$ value as extreme as, or more extreme than, the observed value, assuming the null hypothesis is true.
 
