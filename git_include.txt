@@ -11,6 +11,7 @@ assets/img/chi_square_data1.png
 assets/img/chi_square_data2.png
 assets/img/chi_square_data3.png
 assets/img/cyan_icon.png
+assets/img/cyan_wonder_icon.png
 assets/img/cyan_look.jpeg
 assets/img/cyan_see.jpeg
 assets/img/FFN.png
