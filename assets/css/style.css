@@ -124,18 +124,25 @@ nav a:hover {
 .social-links {
   display: flex;
   align-items: center;
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
   margin-top: 2rem;
 }
 
 .icon svg {
-  color: var(--theme);
   transition: 0.2s;
 }
 
-.icon:hover svg {
-  color: #0a66c2; /* LinkedIn blue for all icons? or use #51ADDA? */
+
+.icon:hover svg[fill="#181717"] {
+  fill: #000000; /* darker GitHub */
 }
+
+.icon:hover svg[fill="#0A66C2"] {
+  fill: #084c92; /* darker LinkedIn blue */
+}
+
 
 .email-box {
   display: flex;
@@ -155,3 +162,9 @@ nav a:hover {
 #copy-email:hover {
   background: #3b91b9;
 }
+.email-icon {
+  font-size: 1.2rem;
+  margin-right: 0.3rem;
+  line-height: 1;
+}
+
