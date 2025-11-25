@@ -3,7 +3,7 @@ layout: post
 title: Accelerator and Detector
 date: 2025-10-09
 permalink: /posts/accelerator_and_detector/
-cover: /assets/img/
+cover: /assets/img/accelerator_cover.png
 ---
 
 > The article is written based on [this post](https://cms.cern/detector/triggering-and-data-acquisition) about the CERN data aquisition system, mingled with my background knowledge

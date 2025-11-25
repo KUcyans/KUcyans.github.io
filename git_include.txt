@@ -17,5 +17,6 @@ assets/img/cyan_see.jpeg
 assets/img/FFN.png
 assets/img/informer.png
 assets/img/val_loss.png
+assets/img/accelerator_cover.png
 assets/img/proton_generation_LHC.png
 assets/img/event_formation_LHC.png
