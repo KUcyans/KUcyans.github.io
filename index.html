@@ -1,3 +1,89 @@
+---
+layout: none
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cyan's</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="/assets/img/cyan_icon.png" type="image/png">
+
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav>
+    <a href="/">Home</a>
+    <a href="/posts/">Posts</a>
+  </nav>
+</header>
+
+<main class="about-container">
+
+  <div class="about-photo">
+    <img src="/assets/img/cyan_see.jpeg" alt="Cyan profile photo">
+  </div>
+
+  <div class="about-text">
+    {% capture bio_content %}
+      {% include bio.md %}
+    {% endcapture %}
+    {{ bio_content | markdownify }}
+  </div>
+
+</main>
+
+<div class="social-links">
+  <!-- unchanged social links -->
+  <a href="https://github.com/KUcyans" target="_blank" class="icon">
+    <!-- GitHub icon SVG -->
+  </a>
+
+  <a href="https://www.linkedin.com/in/cyan-yong-ho-jo-a991702b0/" target="_blank" class="icon">
+    <!-- LinkedIn icon SVG -->
+  </a>
+
+  <div class="email-box">
+    <span class="email-icon">✉️</span>
+    <span id="email-text">cyan.jo@proton.me</span>
+    <button id="copy-email">¡Copy!</button>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>© 2025 Cyan</p>
+</footer>
+
+<script>
+document.getElementById("copy-email").addEventListener("click", function() {
+  const email = document.getElementById("email-text").innerText;
+  navigator.clipboard.writeText(email);
+  const original = this.innerText;
+  this.innerText = "Copied!";
+  setTimeout(() => this.innerText = original, 1500);
+});
+</script>
+
+</body>
+</html>
+
+
+<!-- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -126,4 +212,4 @@ document.getElementById("copy-email").addEventListener("click", function() {
 </script>
 
 </body>
-</html>
+</html> -->
