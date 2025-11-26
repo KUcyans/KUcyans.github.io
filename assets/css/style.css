@@ -168,3 +168,13 @@ nav a:hover {
   line-height: 1;
 }
 
+.post-container {
+  max-width: 900px;      /* same width as About page + Navbar */
+  margin: 0 auto;        /* center the whole article */
+  padding: 1rem 1.5rem;  /* add padding on left/right */
+}
+
+.post-content {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
