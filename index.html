@@ -40,13 +40,12 @@ layout: none
   </div>
 
   <div class="about-text">
-      {% capture bio_content %}
-      
+  {% capture bio_content %}
   {% include bio.md %}
-      
-      {% endcapture %}
-      {{ bio_content | markdownify }}
+  {% endcapture %}
+  {{ bio_content | markdownify }}
   </div>
+
 
 
 </main>
