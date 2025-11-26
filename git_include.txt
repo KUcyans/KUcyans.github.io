@@ -2,6 +2,7 @@ index.html
 LICENSE
 _config.yml
 _layouts/post.html
+_includes/bio.md
 git_include.txt
 posts/*
 assets/css/*
