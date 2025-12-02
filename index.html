@@ -79,7 +79,7 @@ layout: none
   <div class="email-box">
     <span class="email-icon">✉️</span>
     <span id="email-text">cyan.jo@proton.me</span>
-    <button id="copy-email">¡Copy!</button>
+    <button id="copy-email">Copy Email Address</button>
   </div>
 </div>
 
@@ -92,142 +92,10 @@ document.getElementById("copy-email").addEventListener("click", function() {
   const email = document.getElementById("email-text").innerText;
   navigator.clipboard.writeText(email);
   const original = this.innerText;
-  this.innerText = "Copied!";
+  this.innerText = "¡Copied!";
   setTimeout(() => this.innerText = original, 1500);
 });
 </script>
 
 </body>
 </html>
-
-
-<!-- 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Cyan's</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" href="assets/img/cyan_icon.png" type="image/png">
-  <script>
-    window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']],
-        processEscapes: true
-      },
-      svg: {
-        fontCache: 'global'
-      }
-    };
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-</head>
-
-<body>
-
-<header class="site-header">
-  <nav>
-    <a href="/">Home</a>
-    <a href="/posts/">Posts</a>
-  </nav>
-</header>
-
-<main class="about-container">
-
-  <div class="about-photo">
-    <img src="assets/img/cyan_see.png" alt="Cyan profile photo">
-  </div>
-
-  <div class="about-text">
-    <h1>Cyan</h1>
-    <h2 class="role">Computational Physicist</h2>
-    <p class="affiliation">Affiliation: Shakuras</p>
-
-    <p>
-      Hello! I’m Cyan, a computational physicist specialising in neutrino event reconstruction,
-      machine learning, and high performance computing.
-    </p>
-    <p>
-      My latest research focuses on transformer-based models for high-energy neutrino flavour
-      classification, focusing on IceCube neutrino event data. I have experimented with different
-      architectural hyperparameters and their contribution to the final performance. I am certain
-      there is plenty of room for further experiments.
-    </p>
-    <p>
-      I'm currently bringing this to a different context, assuming transformers can be a nice
-      building block for a tiny regional weather forecast model.
-    </p>
-
-    <h3>My interests include:</h3>
-    <ul>
-      <li>Applying machine learning to scientific problems</li>
-      <li>Hardware optimisation for computation</li>
-      <li>Data pipeline designing and implementation</li>
-      <li>Statistical representation of the data</li>
-      <li>High-energy (astro)particle physics</li>
-    </ul>
-
-    <h3>In this site you’ll find:</h3>
-    <ul>
-      <li>My points of view on ML and its application</li>
-      <li>Notes on physics, ML, and experiments</li>
-      <li>Personal thoughts and research reflections</li>
-    </ul>
-
-    <p>Thanks for visiting — feel free to explore the posts via the tabs above!</p>
-  </div>
-
-</main>
-
-<div class="social-links">
-
-  <a href="https://github.com/KUcyans" target="_blank" class="icon">
-    <svg viewBox="0 0 16 16" width="26" height="26" fill="#181717">
-      <path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 005.47 7.59c.4.07.55-.17.55-.38 
-      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
-      -.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07
-      -1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 
-      0 0 .67-.21 2.2.82A7.68 7.68 0 018 3.87c.68.003 1.36.09 2 .26 
-      1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 
-      1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 
-      0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
-    </svg>
-  </a>
-
-  <a href="https://www.linkedin.com/in/cyan-yong-ho-jo-a991702b0/" target="_blank" class="icon">
-    <svg viewBox="0 0 24 24" width="26" height="26" fill="#0A66C2">
-      <path d="M19 0h-14c-2.761 0-5 2.238-5 5v14c0 2.762 2.239 5 5
-      5h14c2.762 0 5-2.238 5-5v-14c0-2.762-2.238-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.267
-      c-.966 0-1.75-.79-1.75-1.767s.784-1.767 1.75-1.767 1.75.79
-      1.75 1.767-.784 1.767-1.75 1.767zm13.5 11.267h-3v-5.604c0-1.337
-      -.027-3.064-1.867-3.064-1.867 0-2.154 1.459-2.154 2.967v5.701h-3v-10h2.882v1.367h.041c.401
-      -.757 1.379-1.555 2.841-1.555 3.038 0 3.6 2.002 3.6 4.604v5.584z"/>
-    </svg>
-  </a>
-
-  <div class="email-box">
-    <span class="email-icon">✉️</span>
-    <span id="email-text">cyan.jo@proton.me</span>
-    <button id="copy-email">¡Copy!</button>
-  </div>
-</div>
-
-
-
-<footer class="site-footer">
-  <p>© 2025 Cyan</p>
-</footer>
-<script>
-document.getElementById("copy-email").addEventListener("click", function() {
-  const email = document.getElementById("email-text").innerText;
-  navigator.clipboard.writeText(email);
-  const original = this.innerText;
-  this.innerText = "Copied!";
-  setTimeout(() => this.innerText = original, 1500);
-});
-</script>
-
-</body>
-</html> -->
