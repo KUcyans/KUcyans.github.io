@@ -2,7 +2,7 @@
 # <span style="color:#51ADDA;">Cyan</span>
 ## Computational Physicist  
 
-*Affiliation: Shakuras, Earth, IcePack*  
+*Affiliation: Shakuras, the pale blue dot, the citrus love association, IcePack team*  
 
 ### <span style="color:#51ADDA;">I’m Cyan, a computational physicist, playfully utilising machine learning and high-performance computing techniques. I am trying to build explainable machine learning models and apply them to scientific problems.</span>
 
@@ -21,15 +21,20 @@
 
 ## Research Experience 
 ### 1. Master's Program: **High Energy Neutrino Event Reconstruction in IceCube**
-![High Energy Event Reconstruction](/assets/img/illust_masters_thesis.png){: width="75%" }  
+![High Energy Event Reconstruction](/assets/img/illust_masters_thesis.png){: width="80%" }  
 
-My latest research focuses on transformer(neural network)-based models for high-energy neutrino flavour classification, focusing on [IceCube](https://icecube.wisc.edu/science/icecube/) neutrino event data. I have experimented with different architectural hyperparameters and their contribution to the final performance. I am attracted to the fields where this data-driven approaches can be a prominent approach. I love the joy that nice collaboration can bring. I am always seeking for opportunities for catharsis-evoking teamwork. I enjoy programming, especially I feel alive when I build successfully implement a complex logic in code with a comprehensive and organised structure. Most of my software development experience is done with Python, C++, and Java, and under the object-oriented paradigm. In the process of my research, my fellow master's student and I made our data processing tool public in a GitHub repository, with a cool name of [**IcePack**](https://github.com/KUcyans/IcePack/).
+**Figure 1** describes my work on my master's thesis. I statistically summarised IceCube event data, with which I trained transformer. The trained transformer could separate the events that are likely tau neutrino events.
+
+My latest research focuses on transformer (neural network)-based models for high-energy neutrino flavour classification, focusing on [IceCube](https://icecube.wisc.edu/science/icecube/) neutrino event data. I have experimented with different architectural hyperparameters and their contribution to the final performance. I am attracted to the fields where this data-driven approaches can be a prominent approach. I love the joy that nice collaboration can bring. I am always seeking for opportunities for catharsis-evoking teamwork. I enjoy programming, especially I feel alive when I build successfully implement a complex logic in code with a comprehensive and organised structure. Most of my software development experience is done with Python, C++, and Java, and under the object-oriented paradigm. In the process of my research, my fellow master's student and I made our data processing tool public in a GitHub repository, with a cool name of [**IcePack**](https://github.com/KUcyans/IcePack/).
 
 
 ## Professional Experience 
 ### 1. Staff Software Engineer: **Instrument Control & Automation for Semiconductor Equipment**
 
-![Control & Automation Software Engineering](/assets/img/illust_sw_engineer.png){: width="75%" }   
+![Control & Automation Software Engineering](/assets/img/illust_sw_engineer.png){: width="80%" }   
+
+**Figure 2** illustrates my experience as a software engineer for equmipment control and automisation. I developed and maintained a software application for machines in semiconductor manucaturing lines. 
+
 
 I worked at a company that designes and manufactures atomic force microscope (AFM)-based metrology tools for semiconductor fabrication lines (FABs). My team developed and maintained the software application that controlled the entire tool from low-level hardware motion to high-level workflow logic.
 
@@ -49,7 +54,11 @@ In addition to the hands-on software development experience, the company gave me
 
 ### 2. Analysis Engineer
 
-![Scientific Analysis Engineer](/assets/img/illust_analysis_engineer.png){: width="75%" }    
+![Scientific Analysis Engineer](/assets/img/illust_analysis_engineer.png){: width="80%" }    
+
+
+**Figure 3** illustrates the scientific analysis engineer position's role. The analysis targeted on a component of machines installed in FABs. 
+
 
 Before I worked as a software engineer, I had the opportunity to work as a chemical analysis engineer in a semiconductor design and manufacturing company. Although semiconductor technology is often associated with electrical engineering, the actual manufacturing of chips is deeply rooted in materials science and chemical engineering. The fabrication process is essentially a long sequence of chemical treatments applied to a silicon wafer.
 
