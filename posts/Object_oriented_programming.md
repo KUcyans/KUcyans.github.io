@@ -20,7 +20,7 @@ Object-oriented programming is a philosopy of programming focusing on encapsulat
 # Classes and Objects
 A simple way to think about the relationship between a class and an object is to think it like a mold and a cast in sculpture.
 
-![Gates of Hell](/assets/img/Gates_of_Hell.png){: width="80%" }   
+![Gates of Hell](/assets/img/Gates_of_Hell.png){: width="60%" }   
 
 **Figure 1**: The Gates of Hell by Auguste Rodin, the cast at the Museo Soumaya in Mexico. [Image borrowed from Wikipedia](https://en.wikipedia.org/wiki/The_Gates_of_Hell).
 
