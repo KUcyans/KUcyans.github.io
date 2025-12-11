@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Object Oriented Programming
-date: 2025-11-02
+date: 2025-12-11
 permalink: /posts/oop/
 cover: /assets/img/ClassObject.png
 ---
@@ -18,13 +18,11 @@ Object-oriented programming is a philosopy of programming focusing on encapsulat
 * **Polymorphism** allows objects created from related classes to be treated through a common interface while behaving differently depending on their specific class. This makes class-based implementations more flexible and adaptable.
 
 # Classes and Objects
-A simple way to think about the relationship between a class and an object is to think it like a mold and a cast in sculpture.
+A simple way to think about the relationship between a class and an object is to think it like a mold and a cast in sculpture. You must know *The Gates of Hell* by Auguste Rodin. Did you know that there are multiple official casts around the world? Each one made from Rodin’s original plaster models. The Musée d’Orsay in Paris holds one of the key original plasters, and the bronze versions you see at different locations were cast from the same source.
 
 ![Gates of Hell](/assets/img/Gates_of_Hell.png){: width="60%" }   
 
-**Figure 1**: The Gates of Hell by Auguste Rodin, the cast at the Museo Soumaya in Mexico. [Image borrowed from Wikipedia](https://en.wikipedia.org/wiki/The_Gates_of_Hell).
-
-See *The Gates of Hell* by Auguste Rodin. Did you know that there are multiple official casts around the world? Each one made from Rodin’s original plaster models. The Musée d’Orsay in Paris holds one of the key original plasters, and the bronze versions you see at different locations were cast from the same source.
+**Figure 1**: The Gates of Hell by Auguste Rodin, the cast at the Museo Soumaya in Mexico. It is an cast (object) of the original plaster (class).[Image borrowed from Wikipedia](https://en.wikipedia.org/wiki/The_Gates_of_Hell).
 
 In programming terms, the **plaster model** is like the **class**: it defines the shape, structure, and details. **Each bronze cast** is like an **object**: an individual instance created from that original design. They are separate physical artworks, but they all come from the same **template**. 
 
