@@ -20,7 +20,7 @@ After undergoing all the accelerating and injecting process, the ions travel alm
 $$H^- \rightarrow p^++2e^-$$
 A beam is the entire ensemble of protons circulating in the accelerator, structured into distinct bunches.
 
-![Proton Generation for LHC](/assets/img/proton_generation_LHC.png){: width="75%" }  
+![Proton Generation for LHC](/assets/img/proton_generation_LHC.png){: width="75%" }   
 
 **Figure 1**: Production of Protons from Hydrogen via $H^-$ Ion Acceleration and Foil Stripping
 
@@ -31,7 +31,7 @@ Is a beam just a group of protons? Yes, but with some structure. A beam consists
 # So how Events are Generated?
 We have crossing every 25ns (=1/40MHz), but each crossing may generate only few tens of proton-proton collision interactions. An event is the full record of everything produced by one bunch crossing. So an event may contain multiple interactions. High-Luminosity LHC (HL-LHC) is aiming at the number of interations per crossings higher than 100. 
 
-![Event Formation for LHC](/assets/img/event_formation_LHC.png){: width="75%" }  
+![Event Formation for LHC](/assets/img/event_formation_LHC.png){: width="75%" }   
 
  **Figure 2**: Beam Structure and Event Formation in the LHC. [Detector image](https://cds.cern.ch/record/2677903) and [Example event image](https://cds.cern.ch/record/2114784) can be found in the webpages linked respectively.
 

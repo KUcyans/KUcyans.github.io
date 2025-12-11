@@ -24,3 +24,5 @@ assets/img/event_formation_LHC.png
 assets/img/illust_masters_thesis.png
 assets/img/illust_sw_engineer.png
 assets/img/illust_analysis_engineer.png
+assets/img/Gates_of_Hell.png
+assets/img/ClassObject.png

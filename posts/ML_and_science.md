@@ -34,7 +34,16 @@ To detect this, we split the available data into separate subsets. One subset is
 A third subset, kept entirely unseen until all training decisions are finished, is called the test dataset. This final dataset provides an unbiased estimate of the model’s true performance on new data.
 
 # ML in Science: just another kind of fitting method
-But doesn't that sound familiar? Isn't it like Chi² fitting? Yes! it is. Fundamentally, supervised learning is just like Chi² or maximum likelyhood fitting, trying different parameters and find the most optimal parameter combination. 
+But doesn't that sound familiar? Isn't it like Chi² fitting? Yes! In fact, supervised learning follows the same statistical principle as χ² minimisation or maximum-likelihood fitting: we define a model, specify a loss (or likelihood), and adjust the parameters to find the values that best explain the data. The difference is that, in the ML model is not just a small set of coefficients in an analytic formula, but a highly flexible architecture with potentially millions of parameters.
+
+¡So technically it can represent any sample dataset perfectly! In theory yes, but in practice, no. We already know a model is build upon a carefully ochestrated training. 
+
+
+
+### how we understand the data?
+Say we have a dataset scattered over XY plane.
+
+We then want to express the pattern into a known mathematical form such as linear, sinusoidal, or exponential and so forth. These equations provide a sort of summary of the data. It describes the data in a brief form which most of people can image the data in their mind. Instead of this conventional way of condensing the information, ML plays a new role to encode the data. 
 
 
 We have learned 

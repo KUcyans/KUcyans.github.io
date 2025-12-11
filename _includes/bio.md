@@ -6,11 +6,11 @@
 
 ### <span style="color:#51ADDA;">I’m Cyan, a computational physicist, playfully utilising machine learning and high-performance computing techniques. I am trying to build explainable machine learning models and apply them to scientific problems.</span>
 
-## In this site you’ll find:
+<!-- ## In this site you’ll find:
 - About myself
 - My points of view on ML and its application  
 - Notes on physics, ML, and experiments  
-- Personal thoughts and research reflections  
+- Personal thoughts and research reflections   -->
 
 ## My interests include:
 - Applying machine learning to scientific problems  
