@@ -1,8 +1,9 @@
 title: Cyan's Page
 description: Personal page of Cyan
-# theme: leap-day
-# theme: modernist
-theme: time-machine
+# theme: jekyll-theme-leap-day
+# theme: jekyll-theme-modernist
+theme: jekyll-theme-time-machine
+
 
 # Let Jekyll process Markdown everywhere
 markdown: kramdown
