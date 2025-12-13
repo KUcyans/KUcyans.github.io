@@ -46,7 +46,7 @@ And you will agree that this can be generalised for all types of cookies. So hav
 
 **Figure 2**: A cartoon describing the basic relationship and terminology of classes and objects. 
 
-```C++
+```cpp
 class CookieBaker {
 protected:
     auto _flour_in_grams;
