@@ -179,9 +179,10 @@ nav a:hover {
   line-height: 1.7;
 }
 
-/* Dark code block style (Time Machine–like) */
-div.highlight {
-  background: #2d2d2d;
+/* Dark code block style (Time Machine compatible) */
+figure.highlight,
+pre.highlight {
+  background: #2d2d2d !important;
   color: #f8f8f2;
   border-radius: 8px;
   padding: 1rem 1.2rem;
@@ -189,18 +190,19 @@ div.highlight {
 }
 
 /* Reset inner elements */
-div.highlight pre {
-  background: transparent;
+figure.highlight pre,
+pre.highlight {
+  background: transparent !important;
   margin: 0;
   padding: 0;
 }
 
 /* Rouge tokens (dark theme) */
-.highlight .c  { color: #75715e; } /* comments */
+.highlight .c  { color: #06b164; } /* comments */
 .highlight .k  { color: #f92672; } /* keywords */
 .highlight .s  { color: #e6db74; } /* strings */
-.highlight .n  { color: #f8f8f2; }
-.highlight .o  { color: #f92672; }
-.highlight .m  { color: #ae81ff; }
-.highlight .nf { color: #a6e22e; }
-.highlight .nc { color: #a6e22e; }
+.highlight .n  { color: #f8f8f2; } /* names */
+.highlight .o  { color: #f92672; } /* operators */
+.highlight .m  { color: #ae81ff; } /* numbers */
+.highlight .nf { color: #a6e22e; } /* function names */
+.highlight .nc { color: #2ea9e2; } /* class names */
