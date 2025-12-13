@@ -180,10 +180,9 @@ nav a:hover {
 }
 
 /* Dark code block style (Time Machine compatible) */
-/* Dark code block style (Time Machine compatible) */
-/* Increased specificity by adding .post-content */
 .post-content figure.highlight,
 .post-content pre.highlight {
+  /* This targets the outer container background */
   background: #2d2d2d !important;
   color: #f8f8f2;
   border-radius: 8px;
@@ -191,23 +190,23 @@ nav a:hover {
   overflow-x: auto;
 }
 
-/* Reset inner elements (also increase specificity) */
+/* Reset inner elements for figure.highlight > pre and pre.highlight */
 .post-content figure.highlight pre,
-.post-content pre.highlight {
-  background: transparent !important;
+.post-content pre.highlight,
+.post-content pre.highlight code { /* Target inner code/pre elements */
+  background: transparent !important; /* CRITICAL: Force transparency */
+  color: inherit !important;         /* CRITICAL: Inherit the light text color from the parent highlight block */
   margin: 0;
   padding: 0;
+  /* Add display: block if needed for formatting, but transparent is key */
 }
 
-/* You might need to do the same for the inner .highlight .c, .k, etc., 
-   if the theme is also overriding the text colors, but start with the block background. */
-
-/* Rouge tokens (dark theme) */
-.highlight .c  { color: #06b164; } /* comments */
-.highlight .k  { color: #f92672; } /* keywords */
-.highlight .s  { color: #e6db74; } /* strings */
-.highlight .n  { color: #f8f8f2; } /* names */
-.highlight .o  { color: #f92672; } /* operators */
-.highlight .m  { color: #ae81ff; } /* numbers */
-.highlight .nf { color: #a6e22e; } /* function names */
-.highlight .nc { color: #2ea9e2; } /* class names */
+/* Rouge tokens (dark theme) - Use the high-specificity prefix! */
+.post-content .highlight .c  { color: #06b164; } /* comments */
+.post-content .highlight .k  { color: #f92672; } /* keywords */
+.post-content .highlight .s  { color: #e6db74; } /* strings */
+.post-content .highlight .n  { color: #f8f8f2; } /* names */
+.post-content .highlight .o  { color: #f92672; } /* operators */
+.post-content .highlight .m  { color: #ae81ff; } /* numbers */
+.post-content .highlight .nf { color: #a6e22e; } /* function names */
+.post-content .highlight .nc { color: #2ea9e2; } /* class names */
