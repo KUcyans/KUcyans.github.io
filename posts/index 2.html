@@ -1,0 +1,71 @@
+---
+layout: none
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Posts</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="/assets/img/cyan_wonder_icon.png" type="image/png">
+  <link rel="shortcut icon" href="/assets/img/cyan_wonder_icon.png" type="image/png">
+  <script>
+    window.MathJax = {
+        tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+        },
+        svg: {
+        fontCache: 'global'
+        }
+    };
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav>
+    <a href="/">Home</a>
+    <a href="/posts/">Posts</a>
+  </nav>
+</header>
+
+<main class="post-list">
+
+  <h1>Posts</h1>
+
+  <!-- Loop over all posts in /posts/ except this index page -->
+  {% assign sorted = site.pages | sort: 'date' | reverse %}
+
+  {% for page in sorted %}
+    {% if page.url contains '/posts/' and page.url != '/posts/' and page.title %}
+
+      <article class="post-card">
+
+        {% if page.cover %}
+        <div class="post-cover">
+          <a href="{{ page.url }}">
+            <img src="{{ page.cover }}" alt="{{ page.title }} cover image">
+          </a>
+        </div>
+        {% endif %}
+
+        <div class="post-card-text">
+          <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+          <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
+          <p class="excerpt">{{ page.excerpt | strip_html }}</p>
+        </div>
+
+      </article>
+
+    {% endif %}
+  {% endfor %}
+
+</main>
+
+</body>
+</html>

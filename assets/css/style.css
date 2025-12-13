@@ -179,39 +179,31 @@ nav a:hover {
   line-height: 1.7;
 }
 
-/* --- DEFINITIVE CODE BLOCK OVERRIDE (HIGH SPECIFICITY) --- */
+/* === FINAL Time Machine code block override === */
 
-/* 1. Force the Outer Container Background to Dark */
-.post-content figure.highlight,
-.post-content pre.highlight {
-  background: #2d2d2d !important; /* CRITICAL: Force Dark Background */
-  color: #f8f8f2 !important; /* Force Light Text Color */
+pre,
+pre code,
+.highlight,
+.highlight pre,
+.highlight code {
+  background: #2d2d2d !important;
+  color: #f8f8f2 !important;
+  border: none !important;
+}
+
+/* spacing */
+pre {
+  padding: 1rem 1.2rem !important;
   border-radius: 8px;
-  padding: 1rem 1.2rem;
   overflow-x: auto;
 }
 
-/* 2. Ensure Inner Elements are Transparent and Inherit Color */
-/* This is the key part to combat the theme's internal white background */
-.post-content figure.highlight pre,
-.post-content pre.highlight,
-.post-content figure.highlight code,
-.post-content pre.highlight code {
-  background: transparent !important; /* CRITICAL: Remove any inner white background */
-  color: inherit !important;         /* Ensure text color is inherited from the parent dark block */
-  margin: 0;
-  padding: 0;
-}
-
-/* 3. High-Specificity Rouge Tokens (Must include .post-content and .highlight) */
-/* Apply these styles to the individual code tokens using the high-specificity selector */
-.post-content .highlight .c  { color: #06b164 !important; } /* comments */
-.post-content .highlight .k  { color: #f92672 !important; } /* keywords */
-.post-content .highlight .s  { color: #e6db74 !important; } /* strings */
-.post-content .highlight .n  { color: #f8f8f2 !important; } /* names */
-.post-content .highlight .o  { color: #f92672 !important; } /* operators */
-.post-content .highlight .m  { color: #ae81ff !important; } /* numbers */
-.post-content .highlight .nf { color: #a6e22e !important; } /* function names */
-.post-content .highlight .nc { color: #2ea9e2 !important; } /* class names */
-
-/* --- END DEFINITIVE CODE BLOCK OVERRIDE --- */
+/* Rouge tokens */
+.highlight .c  { color: #06b164 !important; }
+.highlight .k  { color: #f92672 !important; }
+.highlight .s  { color: #e6db74 !important; }
+.highlight .n  { color: #f8f8f2 !important; }
+.highlight .o  { color: #f92672 !important; }
+.highlight .m  { color: #ae81ff !important; }
+.highlight .nf { color: #a6e22e !important; }
+.highlight .nc { color: #2ea9e2 !important; }
