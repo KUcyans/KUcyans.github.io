@@ -180,8 +180,10 @@ nav a:hover {
 }
 
 /* Dark code block style (Time Machine compatible) */
-figure.highlight,
-pre.highlight {
+/* Dark code block style (Time Machine compatible) */
+/* Increased specificity by adding .post-content */
+.post-content figure.highlight,
+.post-content pre.highlight {
   background: #2d2d2d !important;
   color: #f8f8f2;
   border-radius: 8px;
@@ -189,13 +191,16 @@ pre.highlight {
   overflow-x: auto;
 }
 
-/* Reset inner elements */
-figure.highlight pre,
-pre.highlight {
+/* Reset inner elements (also increase specificity) */
+.post-content figure.highlight pre,
+.post-content pre.highlight {
   background: transparent !important;
   margin: 0;
   padding: 0;
 }
+
+/* You might need to do the same for the inner .highlight .c, .k, etc., 
+   if the theme is also overriding the text colors, but start with the block background. */
 
 /* Rouge tokens (dark theme) */
 .highlight .c  { color: #06b164; } /* comments */
