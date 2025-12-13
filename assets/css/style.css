@@ -179,34 +179,39 @@ nav a:hover {
   line-height: 1.7;
 }
 
-/* Dark code block style (Time Machine compatible) */
+/* --- DEFINITIVE CODE BLOCK OVERRIDE (HIGH SPECIFICITY) --- */
+
+/* 1. Force the Outer Container Background to Dark */
 .post-content figure.highlight,
 .post-content pre.highlight {
-  /* This targets the outer container background */
-  background: #2d2d2d !important;
-  color: #f8f8f2;
+  background: #2d2d2d !important; /* CRITICAL: Force Dark Background */
+  color: #f8f8f2 !important; /* Force Light Text Color */
   border-radius: 8px;
   padding: 1rem 1.2rem;
   overflow-x: auto;
 }
 
-/* Reset inner elements for figure.highlight > pre and pre.highlight */
+/* 2. Ensure Inner Elements are Transparent and Inherit Color */
+/* This is the key part to combat the theme's internal white background */
 .post-content figure.highlight pre,
 .post-content pre.highlight,
-.post-content pre.highlight code { /* Target inner code/pre elements */
-  background: transparent !important; /* CRITICAL: Force transparency */
-  color: inherit !important;         /* CRITICAL: Inherit the light text color from the parent highlight block */
+.post-content figure.highlight code,
+.post-content pre.highlight code {
+  background: transparent !important; /* CRITICAL: Remove any inner white background */
+  color: inherit !important;         /* Ensure text color is inherited from the parent dark block */
   margin: 0;
   padding: 0;
-  /* Add display: block if needed for formatting, but transparent is key */
 }
 
-/* Rouge tokens (dark theme) - Use the high-specificity prefix! */
-.post-content .highlight .c  { color: #06b164; } /* comments */
-.post-content .highlight .k  { color: #f92672; } /* keywords */
-.post-content .highlight .s  { color: #e6db74; } /* strings */
-.post-content .highlight .n  { color: #f8f8f2; } /* names */
-.post-content .highlight .o  { color: #f92672; } /* operators */
-.post-content .highlight .m  { color: #ae81ff; } /* numbers */
-.post-content .highlight .nf { color: #a6e22e; } /* function names */
-.post-content .highlight .nc { color: #2ea9e2; } /* class names */
+/* 3. High-Specificity Rouge Tokens (Must include .post-content and .highlight) */
+/* Apply these styles to the individual code tokens using the high-specificity selector */
+.post-content .highlight .c  { color: #06b164 !important; } /* comments */
+.post-content .highlight .k  { color: #f92672 !important; } /* keywords */
+.post-content .highlight .s  { color: #e6db74 !important; } /* strings */
+.post-content .highlight .n  { color: #f8f8f2 !important; } /* names */
+.post-content .highlight .o  { color: #f92672 !important; } /* operators */
+.post-content .highlight .m  { color: #ae81ff !important; } /* numbers */
+.post-content .highlight .nf { color: #a6e22e !important; } /* function names */
+.post-content .highlight .nc { color: #2ea9e2 !important; } /* class names */
+
+/* --- END DEFINITIVE CODE BLOCK OVERRIDE --- */
