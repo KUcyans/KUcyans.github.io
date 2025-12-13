@@ -178,3 +178,39 @@ nav a:hover {
   font-size: 1.05rem;
   line-height: 1.7;
 }
+
+
+/* Code blocks (fenced ``` blocks) */
+pre {
+  background: #f6f8fa;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  overflow-x: auto;
+  line-height: 1.45;
+  font-size: 0.95rem;
+}
+
+pre code {
+  background: transparent; /* keep only the <pre> background */
+  padding: 0;
+}
+
+/* Inline code (`like this`) */
+code {
+  background: #f6f8fa;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 0.15em 0.35em;
+  font-size: 0.95em;
+}
+
+/* Rouge token colours (minimal set) */
+.highlight .c { color: #6a737d; }  /* comments */
+.highlight .k { color: #d73a49; }  /* keywords */
+.highlight .s { color: #032f62; }  /* strings */
+.highlight .n { color: #24292e; }  /* names */
+.highlight .o { color: #d73a49; }  /* operators */
+.highlight .m { color: #005cc5; }  /* numbers */
+.highlight .nf { color: #6f42c1; } /* function names */
+.highlight .nc { color: #6f42c1; } /* class names */
