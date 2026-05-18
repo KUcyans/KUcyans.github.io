@@ -19,13 +19,19 @@
 - Statistical representation of data  
 - High-energy (astro)particle physics  
 
-## Research Experience 
+## Research & Educational Experience 
 ### 1. Master's Program: **High Energy Neutrino Event Reconstruction in IceCube**
 ![High Energy Event Reconstruction](/assets/img/illust_masters_thesis.png){: width="80%" }  
 
 **Figure 1** describes my work on my master's thesis. I statistically summarised IceCube event data, with which I trained transformer. The trained transformer could separate the events that are likely tau neutrino events.
 
-My latest research focuses on transformer (neural network)-based models for high-energy neutrino flavour classification, focusing on [IceCube](https://icecube.wisc.edu/science/icecube/) neutrino event data. I have experimented with different architectural hyperparameters and their contribution to the final performance. I am attracted to the fields where this data-driven approaches can be a prominent approach. I love the joy that nice collaboration can bring. I am always seeking for opportunities for catharsis-evoking teamwork. I enjoy programming, especially I feel alive when I build successfully implement a complex logic in code with a comprehensive and organised structure. Most of my software development experience is done with Python, C++, and Java, and under the object-oriented paradigm. In the process of my research, my fellow master's student and I made our data processing tool public in a GitHub repository, with a cool name of [**IcePack**](https://github.com/KUcyans/IcePack/).
+My latest research focuses on transformer (neural network)-based models for high-energy neutrino flavour classification, focusing on [IceCube](https://icecube.wisc.edu/science/icecube/) neutrino event data. I have experimented with different architectural hyperparameters and their contribution to the final performance. I am attracted to the fields where this data-driven approaches can be a prominent approach. I love the joy that nice collaboration can bring. I am always seeking for opportunities for catharsis-evoking teamwork. I enjoy programming, especially I feel alive when I build successfully implement a complex logic in code with a comprehensive and organised structure. Most of my software development experience is done with Python, C++, and Java, and under the object-oriented paradigm. In the process of my research, my fellow master's student and I made our data processing tool public in a GitHub repository, with a cool name of [**IcePack**](https://github.com/KUcyans/IcePack/). During the master's programme, I was deeply enchanged by the statistical and data-driven methods in science. I chose to set my direction to this way and took courses like applied statistics, advanced methods in applied statistics, inverse problem, diffusive and stochastic processes, applied machine learning, scienctific computing, and high-performance parallel computing. Looking back through the courses I took, I learned significantly more than I'd expected to, expecially in terms of practical skills and methodology.
+
+
+### 2. Bachelor's Program: **Astronomy & Physics Focusing on interaction of light and matter**
+During my bachelor’s studies, I developed an analytical way of thinking grounded in a physicist’s perspective on nature. I was particularly impressed by how physics builds a coherent understanding of the universe from seemingly distinct domains. Courses such as classical mechanics, electromagnetism, quantum mechanics, statistical mechanics, and astrophysics were followed with strong interest, each contributing to a unified description of natural phenomena. In the later stage of the programme, radiative transfer theory in astrophysics got my attention, as it brought together concepts from across physics and forms the foundation of much astrophysical analysis.
+
+
 
 
 ## Professional Experience 
@@ -36,7 +42,7 @@ My latest research focuses on transformer (neural network)-based models for high
 **Figure 2** illustrates my experience as a software engineer for equmipment control and automisation. I developed and maintained a software application for machines in semiconductor manucaturing lines. 
 
 
-I worked at a company that designes and manufactures atomic force microscope (AFM)-based metrology tools for semiconductor fabrication lines (FABs). My team developed and maintained the software application that controlled the entire tool from low-level hardware motion to high-level workflow logic.
+I worked at a company that designs and manufactures atomic force microscope (AFM)-based metrology tools for semiconductor fabrication lines (FABs). My team developed and maintained the software application that controlled the entire tool from low-level hardware motion to high-level workflow logic.
 
 The development of such a machine requires two different phases of integration.   
 1. Intermodulear integration: the integration of the modules that constitute the machine  
