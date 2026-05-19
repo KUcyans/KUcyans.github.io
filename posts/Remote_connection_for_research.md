@@ -20,7 +20,6 @@ At forbinde to computerne kan være enkel, hvis man bruger en agent application.
   * **CUDA 13.1**
   * WSL2 Ubuntu
   * Conda environment
-  * contains ML projects
 * <b><span style="color:#1E90FF;">Laptop (MacBook Pro 2016 13')</span></b>
   * macOS Monterey 12.7.6
   * 2.9 GHz Dual-Core Intel Core i5
@@ -29,16 +28,15 @@ At forbinde to computerne kan være enkel, hvis man bruger en agent application.
 
 
 # Tailscale
-> Two machines see each other as if they were on the same local network!
+> Two machines see each other as if they were on the same local network!   
+ 
 [Download Tailscale application](https://tailscale.com/download) on the both machine, choosing right one for right operating system. (Allowing the network access from the settings on Mac was required for me) Create account if you are using for first time. The basic option I choose can be used free of charge. If you sign into Tailscale, you can see the list of machines and their ip addresses. How the two machines can see each other. Write the <b>Tailscale ip address of the workstation</b> fx. <u>100.12.345.6</u>.
 
-One important aspect of this setup is that the connection is encrypted and private. It is not exposing the workstation to the public internet through open SSH ports, Tailscale creates a private mesh VPN between trusted devices using WireGuard-based encryption.
-
-This means the laptop and workstation communicate as if they were on the same local network, regardless of their physical location!
+The connection is encrypted and private. It is not exposing the workstation to the public internet through open SSH ports, Tailscale creates a private mesh VPN between trusted devices using WireGuard-based encryption. 
 
 The overal configuration is shown in the figure below.
 
-![Remote Connection with Tailscale](/assets/img/Tailscale_concept.png){: width="50%" } 
+![Remote Connection with Tailscale](/assets/img/Tailscale_concept.png){: width="66%" } 
 
 
 # Setup After Installation 
@@ -107,7 +105,7 @@ Also allow the Windows firewall to accept incoming SSH traffic:
 New-NetFirewallRule -DisplayName "WSL SSH" -Direction Inbound -LocalPort 22 -Protocol TCP -Action Allow
 </pre>
 
-Now, finally you should be able to do this
+Now, finally you should be able to do this from the laptop:
 <pre class="mac-terminal">
 ssh workstation_name@100.12.345.6
 </pre>
