@@ -3,7 +3,7 @@
 
 <!-- *Affiliation: Shakuras, the pale blue dot, the citrus love association, IcePack team*   -->
 
-### Good morning :) I’m <span style="color:#51ADDA;">Cyan</span>, a computational physicist, deep learning enthusiast, and high-performance computing technician. I like to build deep learning-based models and apply them to scientific problems. I want to make them explainable.</span>
+### Good morning :) I’m <span style="color:#51ADDA;">Cyan</span>, a computational physicist, deep learning enthusiast, and high-performance computing technician. I like to build deep learning-based models and apply them to scientific problems. I want to make them explainable.
 
 <!-- ## In this site you’ll find:
 - About myself
